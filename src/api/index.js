@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // Store the Api url in Variable.
-const url = "https://covid19.mathdro.id/ap";
+const url = "https://covid19.mathdro.id/api";
 
 // Exporting the fetchData.
 export const fetchData = async (country) => {
