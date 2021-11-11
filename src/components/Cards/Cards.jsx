@@ -29,7 +29,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
       {/* One Card Which Name Infected */}
       <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)}>
         <CardContent>
-          <Typography color="textSecondary" gutterBottom>Infected</Typography>
+          <Typography color="textSecondary" gutterBottom>Test</Typography>
           <Typography varaint="h5">
             <CountUp  start={0} end={confirmed.value} duration={2.5}separator="," />
           </Typography>
